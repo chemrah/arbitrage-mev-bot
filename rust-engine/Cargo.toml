@@ -28,7 +28,7 @@ url = "2.5"
 base64 = "0.22"
 hmac = "0.12"
 sha2 = "0.10"
-axum = { version = "0.7" }
+axum = { version = "0.7", features = ["ws"] }
 tower-http = { version = "0.5", features = ["cors"] }
 
 [profile.release]
