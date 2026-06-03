@@ -1,0 +1,27 @@
+# Rust
+rust-engine/target/
+rust-engine/.cargo/
+
+# Node
+node_modules/
+.next/
+npm-debug.log*
+
+# Hardhat
+contracts/artifacts/
+contracts/cache/
+contracts/typechain-types/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
